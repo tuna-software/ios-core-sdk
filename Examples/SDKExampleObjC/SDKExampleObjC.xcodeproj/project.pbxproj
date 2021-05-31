@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F437B99A2652D11A002FC066 /* BindCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F437B9992652D11A002FC066 /* BindCardViewController.m */; };
+		F48E788126496686008347C4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F48E788026496686008347C4 /* AppDelegate.m */; };
+		F48E788426496686008347C4 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F48E788326496686008347C4 /* SceneDelegate.m */; };
+		F48E788A26496686008347C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F48E788826496686008347C4 /* Main.storyboard */; };
+		F48E788C26496686008347C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F48E788B26496686008347C4 /* Assets.xcassets */; };
+		F48E788F26496686008347C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F48E788D26496686008347C4 /* LaunchScreen.storyboard */; };
+		F48E789226496686008347C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F48E789126496686008347C4 /* main.m */; };
+		F48E78A2264966A8008347C4 /* Tuna.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F48E789E2649669D008347C4 /* Tuna.framework */; };
+		F48E78A3264966A8008347C4 /* Tuna.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F48E789E2649669D008347C4 /* Tuna.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F48E78AC26496756008347C4 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F48E78AB26496756008347C4 /* RootViewController.m */; };
+		F48E78B526497519008347C4 /* CreditCardsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F48E78B426497519008347C4 /* CreditCardsViewController.m */; };
+		F48E78BE2649876A008347C4 /* AddCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F48E78BD2649876A008347C4 /* AddCardViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F48E789D2649669D008347C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F48E78982649669D008347C4 /* Tuna.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F4A87ACC260380190067800A;
+			remoteInfo = Tuna;
+		};
+		F48E789F2649669D008347C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F48E78982649669D008347C4 /* Tuna.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F4A87AD5260380190067800A;
+			remoteInfo = TunaTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F48E78A4264966A8008347C4 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F48E78A3264966A8008347C4 /* Tuna.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F437B9982652D11A002FC066 /* BindCardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BindCardViewController.h; sourceTree = "<group>"; };
+		F437B9992652D11A002FC066 /* BindCardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BindCardViewController.m; sourceTree = "<group>"; };
+		F48E787C26496686008347C4 /* SDKExampleObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDKExampleObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F48E787F26496686008347C4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F48E788026496686008347C4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F48E788226496686008347C4 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		F48E788326496686008347C4 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		F48E788926496686008347C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F48E788B26496686008347C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F48E788E26496686008347C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F48E789026496686008347C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F48E789126496686008347C4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F48E78982649669D008347C4 /* Tuna.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Tuna.xcodeproj; path = ../../Tuna/Tuna.xcodeproj; sourceTree = "<group>"; };
+		F48E78AA26496756008347C4 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		F48E78AB26496756008347C4 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		F48E78B326497519008347C4 /* CreditCardsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CreditCardsViewController.h; sourceTree = "<group>"; };
+		F48E78B426497519008347C4 /* CreditCardsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CreditCardsViewController.m; sourceTree = "<group>"; };
+		F48E78BC2649876A008347C4 /* AddCardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddCardViewController.h; sourceTree = "<group>"; };
+		F48E78BD2649876A008347C4 /* AddCardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddCardViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F48E787926496686008347C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F48E78A2264966A8008347C4 /* Tuna.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F48E787326496686008347C4 = {
+			isa = PBXGroup;
+			children = (
+				F48E78982649669D008347C4 /* Tuna.xcodeproj */,
+				F48E787E26496686008347C4 /* SDKExampleObjC */,
+				F48E787D26496686008347C4 /* Products */,
+				F48E78A1264966A8008347C4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F48E787D26496686008347C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F48E787C26496686008347C4 /* SDKExampleObjC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F48E787E26496686008347C4 /* SDKExampleObjC */ = {
+			isa = PBXGroup;
+			children = (
+				F48E78A926496746008347C4 /* Controllers */,
+				F48E787F26496686008347C4 /* AppDelegate.h */,
+				F48E788026496686008347C4 /* AppDelegate.m */,
+				F48E788226496686008347C4 /* SceneDelegate.h */,
+				F48E788326496686008347C4 /* SceneDelegate.m */,
+				F48E788826496686008347C4 /* Main.storyboard */,
+				F48E788B26496686008347C4 /* Assets.xcassets */,
+				F48E788D26496686008347C4 /* LaunchScreen.storyboard */,
+				F48E789026496686008347C4 /* Info.plist */,
+				F48E789126496686008347C4 /* main.m */,
+			);
+			path = SDKExampleObjC;
+			sourceTree = "<group>";
+		};
+		F48E78992649669D008347C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F48E789E2649669D008347C4 /* Tuna.framework */,
+				F48E78A02649669D008347C4 /* TunaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F48E78A1264966A8008347C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F48E78A926496746008347C4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F48E78AA26496756008347C4 /* RootViewController.h */,
+				F48E78AB26496756008347C4 /* RootViewController.m */,
+				F48E78B326497519008347C4 /* CreditCardsViewController.h */,
+				F48E78B426497519008347C4 /* CreditCardsViewController.m */,
+				F48E78BC2649876A008347C4 /* AddCardViewController.h */,
+				F48E78BD2649876A008347C4 /* AddCardViewController.m */,
+				F437B9982652D11A002FC066 /* BindCardViewController.h */,
+				F437B9992652D11A002FC066 /* BindCardViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F48E787B26496686008347C4 /* SDKExampleObjC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F48E789526496686008347C4 /* Build configuration list for PBXNativeTarget "SDKExampleObjC" */;
+			buildPhases = (
+				F48E787826496686008347C4 /* Sources */,
+				F48E787926496686008347C4 /* Frameworks */,
+				F48E787A26496686008347C4 /* Resources */,
+				F48E78A4264966A8008347C4 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SDKExampleObjC;
+			productName = SDKExampleObjC;
+			productReference = F48E787C26496686008347C4 /* SDKExampleObjC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F48E787426496686008347C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					F48E787B26496686008347C4 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = F48E787726496686008347C4 /* Build configuration list for PBXProject "SDKExampleObjC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F48E787326496686008347C4;
+			productRefGroup = F48E787D26496686008347C4 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = F48E78992649669D008347C4 /* Products */;
+					ProjectRef = F48E78982649669D008347C4 /* Tuna.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				F48E787B26496686008347C4 /* SDKExampleObjC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		F48E789E2649669D008347C4 /* Tuna.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Tuna.framework;
+			remoteRef = F48E789D2649669D008347C4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F48E78A02649669D008347C4 /* TunaTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = TunaTests.xctest;
+			remoteRef = F48E789F2649669D008347C4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F48E787A26496686008347C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F48E788F26496686008347C4 /* LaunchScreen.storyboard in Resources */,
+				F48E788C26496686008347C4 /* Assets.xcassets in Resources */,
+				F48E788A26496686008347C4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F48E787826496686008347C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F48E788126496686008347C4 /* AppDelegate.m in Sources */,
+				F48E789226496686008347C4 /* main.m in Sources */,
+				F437B99A2652D11A002FC066 /* BindCardViewController.m in Sources */,
+				F48E78BE2649876A008347C4 /* AddCardViewController.m in Sources */,
+				F48E78AC26496756008347C4 /* RootViewController.m in Sources */,
+				F48E78B526497519008347C4 /* CreditCardsViewController.m in Sources */,
+				F48E788426496686008347C4 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F48E788826496686008347C4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F48E788926496686008347C4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F48E788D26496686008347C4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F48E788E26496686008347C4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F48E789326496686008347C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F48E789426496686008347C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F48E789626496686008347C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8C7439RJLG;
+				INFOPLIST_FILE = SDKExampleObjC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uy.tuna.SDKExampleObjC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F48E789726496686008347C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8C7439RJLG;
+				INFOPLIST_FILE = SDKExampleObjC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uy.tuna.SDKExampleObjC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F48E787726496686008347C4 /* Build configuration list for PBXProject "SDKExampleObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F48E789326496686008347C4 /* Debug */,
+				F48E789426496686008347C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F48E789526496686008347C4 /* Build configuration list for PBXNativeTarget "SDKExampleObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F48E789626496686008347C4 /* Debug */,
+				F48E789726496686008347C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F48E787426496686008347C4 /* Project object */;
+}
