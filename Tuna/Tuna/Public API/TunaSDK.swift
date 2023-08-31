@@ -8,6 +8,11 @@
 import Foundation
 import os.log
 
+extension URL {
+    static let tunaProductionURL = URL(string: "https://engine.tunagateway.com")!
+    static let tunaSandboxURL = URL(string: "https://token.tuna-demo.uy")!
+}
+
 @objcMembers public final class TunaSDK: NSObject {
     
     private let log = OSLog(subsystem: kTunaCoreDomain, category: String(describing: TunaSDK.self))
@@ -25,12 +30,11 @@ import os.log
     func configure(appToken: String, sandbox: Bool = false) {
         _appToken = appToken
         
-        #warning("TODO: Change production URL")
-        _tokenAPIBaseURL = sandbox ? URL(string: "https://token.tuna-demo.uy")! : URL(string: "https://token.tuna-demo.uy")!
+        _tokenAPIBaseURL = sandbox ? .tunaSandboxURL : .tunaProductionURL
         isSandbox = sandbox
     }
     
-    private var _tokenAPIBaseURL: URL = URL(string: "https://token.tuna-demo.uy")!
+    private var _tokenAPIBaseURL = URL.tunaSandboxURL
     private var _appToken: String?
     
     var tokenAPIBaseURL: URL { _tokenAPIBaseURL }
