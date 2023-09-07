@@ -9,7 +9,7 @@ import Foundation
 import os.log
 
 extension URL {
-    static let tunaProductionURL = URL(string: "https://engine.tunagateway.com")!
+    static let tunaProductionURL = URL(string: "https://token.tunagateway.com")!
     static let tunaSandboxURL = URL(string: "https://token.tuna-demo.uy")!
 }
 
